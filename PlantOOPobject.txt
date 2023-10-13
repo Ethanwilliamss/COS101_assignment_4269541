@@ -1,0 +1,22 @@
++----------------------------------+
+|           PlantOOPobject         |
++----------------------------------+
+| -plantId: int                    |
+| -name: String                    |
+| -species: String                 |
+| -quantity: int                   |
+| -purchaseDate: Date              |
+| -healthStatus: String            |
++----------------------------------+
+| +PlantOOPobject(plantId: int,    |
+|  name: String, species: String,  |
+|  quantity: int, purchaseDate: Date)|
+| +getPlantId(): int               |
+| +getName(): String               |
+| +getSpecies(): String            |
+| +getQuantity(): int              |
+| +getPurchaseDate(): Date         |
+| +getHealthStatus(): String       |
+| +setQuantity(quantity: int): void|
+| +updateHealthStatus(status: String): void|
++----------------------------------+
